@@ -5,6 +5,7 @@ import ExplorePartnerships from './components/ExplorePartnerships';
 import CoursesSection from './components/CoursesSection';
 import DashboardSection from './components/DashboardSection';
 import Footer from './components/Footer';
+import JobSlider from './components/JobSlider';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AboutSection />
       <ExplorePartnerships />
       <CoursesSection />
+      <JobSlider />
       <DashboardSection />
       <Footer />
     </div>
